@@ -1,4 +1,4 @@
 [submodule "xcframework-maker"]
 path = xcframework-maker
-url = https://github.com/iamgirya/xcframework-maker
+url = https://github.com/Robot-Baymax/xcframework-maker
 branch = add-patchMinVersionCommandInMachO
