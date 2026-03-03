@@ -44,33 +44,33 @@ let package = Package(
     .binaryTarget(
       name: "MLImage",
       url:
-        "https://github.com/Robot-Baymax/google-mlkit-swiftpm/releases/download/7.0.0/MLImage.xcframework.zip",
-      checksum: "fb6260e0ca36f64766df6a2b7d1000740914b0f00639b3957b30d5fbff21fa83"),
+        "https://github.com/Robot-Baymax/google-mlkit-swiftpm/releases/download/7.0.1/MLImage.xcframework.zip",
+      checksum: "a7cf2cc96233ea73ecd750ae9949a68837c09d2bfc6f5884aa031be622f4c3ac"),
     .binaryTarget(
       name: "MLKitBarcodeScanning",
       url:
-        "https://github.com/Robot-Baymax/google-mlkit-swiftpm/releases/download/7.0.0/MLKitBarcodeScanning.xcframework.zip",
-      checksum: "aa262a36ee483d6ed0c146c3722dcaa9681f336388a3ab8b173ed3a6253feb75"),
+        "https://github.com/Robot-Baymax/google-mlkit-swiftpm/releases/download/7.0.1/MLKitBarcodeScanning.xcframework.zip",
+      checksum: "a427b40a6cdefc3d4cf3f2c5d439e18cc214cdd4251eb19e1d0c5b2bde4dfc58"),
     .binaryTarget(
       name: "MLKitCommon",
       url:
-        "https://github.com/Robot-Baymax/google-mlkit-swiftpm/releases/download/7.0.0/MLKitCommon.xcframework.zip",
-      checksum: "75ae1299705889647b98fb651e2d7d7efac54a5e73cb8aa13abd250260b4bb28"),
+        "https://github.com/Robot-Baymax/google-mlkit-swiftpm/releases/download/7.0.1/MLKitCommon.xcframework.zip",
+      checksum: "6e75a53c088e22b3fce8aa659f17cb3ed5665b76d908a7467747790aa84542d3"),
     .binaryTarget(
       name: "MLKitFaceDetection",
       url:
-        "https://github.com/Robot-Baymax/google-mlkit-swiftpm/releases/download/7.0.0/MLKitFaceDetection.xcframework.zip",
-      checksum: "3ba3c41313016751448fad5de63cf368f38f26b830b008f7637aacc616d93472"),
+        "https://github.com/Robot-Baymax/google-mlkit-swiftpm/releases/download/7.0.1/MLKitFaceDetection.xcframework.zip",
+      checksum: "23f0bf6c64fbccf034018aa885ffff1b7c616a9c8c61bdba36e80c29fcba1a18"),
     .binaryTarget(
       name: "MLKitVision",
       url:
-        "https://github.com/Robot-Baymax/google-mlkit-swiftpm/releases/download/7.0.0/MLKitVision.xcframework.zip",
-      checksum: "5bd251aec6daf4dc6d934b583a0cb20be21129e0ea499e29db6dfdb305b7aef7"),
+        "https://github.com/Robot-Baymax/google-mlkit-swiftpm/releases/download/7.0.1/MLKitVision.xcframework.zip",
+      checksum: "1bdd96341497427d2cd93e41d79d8c6fe2e27289a5046d38a0a5dba16adde5fb"),
     .binaryTarget(
       name: "GoogleToolboxForMac",
       url:
-        "https://github.com/Robot-Baymax/google-mlkit-swiftpm/releases/download/7.0.0/GoogleToolboxForMac.xcframework.zip",
-      checksum: "e3ede608f8e685887ccc07aad27fb1c225843667b98755c64809587ce4188fb0"),
+        "https://github.com/Robot-Baymax/google-mlkit-swiftpm/releases/download/7.0.1/GoogleToolboxForMac.xcframework.zip",
+      checksum: "8926e2706c6978175bc4841d22f521e2ae0e8c065b86ff1880b561d304a82da7"),
     .target(
       name: "Common",
       dependencies: [
