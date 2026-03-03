@@ -12,7 +12,7 @@ This is experimental project for building MLKit in Swift Package Manager.
 ### Use Swift Package Manager to install
 
 ```swift
-    .package(url: "https://github.com/Robot-Baymax/google-mlkit-swiftpm", from: "7.0.0")
+    .package(url: "https://github.com/Robot-Baymax/google-mlkit-swiftpm", from: "7.0.1")
 ```
 
 ### Add Linker flags
@@ -30,7 +30,6 @@ Download `GoogleMVFaceDetectorResources.bundle` from [Release](https://github.co
 
 ## Limitation
 
-- Since pre-built MLKit binary missing `arm64` for iphonesimulator, this project enables to build in `arm64` for iphoneos and `x86_64` for iphonesimulator only.
 - Only supported `Face Detection` and `Barcode Scanning` right now.
 
 ## Example
